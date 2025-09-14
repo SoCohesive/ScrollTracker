@@ -46,13 +46,14 @@ Ambient visual indicators (bars/fog) that intensify with scroll amount, creating
 - **API Integration**: Real-time usage analytics
 - **PWA Support**: Offline-capable, installable
 
-### Backend (Planned)
-- **Tech Stack**: Node.js/Python + PostgreSQL/MongoDB
+### Backend (TBD)
+- **Tech Stack**: Node.js/Typescript + TBD
 - **Features**: 
   - Usage analytics and patterns
   - User preference storage
   - A/B testing for different tracking methods
   - API endpoints for cross-platform data sync
+  - ONNX embeddings for heuristics 
 
 ## Repository Structure
 The evolution of this would be: 
@@ -105,7 +106,7 @@ scrolledFraction = -minY / (proxy.size.height - screenHeight)
 ```
 
 ### Cross-Platform Considerations
-- State management patterns adaptable to React/Vue
+- State management patterns adaptable to React/Vue/Typescript
 - Animation systems translatable to CSS/JS
 - Visual metaphors consistent across platforms
 
@@ -118,34 +119,10 @@ Each tracker represents different approaches to digital wellness:
 
 The system avoids judgmental messaging, instead focusing on gentle awareness and user agency in consumption choices.
 
-## Development Roadmap
-
-### Phase 1 (Current)
-- [x] iOS SwiftUI implementation
-- [x] Three core tracking methods
-- [x] Interactive mode switching
-
-### Phase 2 (Web)
-- [ ] React/Vue.js web application
-- [ ] Touch and mouse scroll detection
-- [ ] Responsive design for mobile/desktop
-- [ ] Web-based AI assistant
-
-### Phase 3 (Backend)
-- [ ] User analytics API
-- [ ] Cross-platform data synchronization
-- [ ] A/B testing framework
-- [ ] Usage pattern analysis
-
-### Phase 4 (Integration)
-- [ ] Unified user accounts
-- [ ] Cross-device usage tracking
-- [ ] Advanced personalization
-- [ ] Export/import preferences
 
 ## Contributing
 
-This project explores the intersection of technology and digital wellness. Contributions should maintain the focus on non-judgmental, user-empowering approaches to content consumption awareness.
+This project explores the intersection of technology and digital wellness. Contributions should maintain the focus on non-judgmental, user-empowering approaches to content consumption awareness and respect for creator and business needs.
 
 ## License
 
