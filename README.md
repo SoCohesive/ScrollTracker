@@ -9,13 +9,13 @@ This project demonstrates three distinct approaches to visualizing scroll progre
 ## Visuals
 
 1. Bottom Toast 
-![Demo of the bottom toast](demo_assets/bottom_toast_demo.gif)
+![Demo of the bottom toast](demo_assets/bottom_toast_demo.GIF)
 
 2. Progressive Bars
-![Demo of the progressive bars](demo_assets/bars_demo.gif)
+![Demo of the progressive bars](demo_assets/bars_demo.GIF)
 
 3. AI Assistant 
-![Demo of the ai assistant](demo_assets/ai_assistant_demo.gif)
+![Demo of the ai assistant](demo_assets/ai_assistant_demo.GIF)
 
 
 
