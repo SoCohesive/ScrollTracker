@@ -10,7 +10,7 @@ import AppleProductTypes
 let package = Package(
     name: "ScrollTrackerAppPlayground",
     platforms: [
-        .iOS("16.0")
+        .iOS("17.0")
     ],
     products: [
         .iOSApplication(
@@ -37,7 +37,10 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "AppModule",
-            path: "."
+            path: ".",
+            resources: [
+                .process("Resources"),
+            ]
         )
     ],
     swiftLanguageVersions: [.v6]
