@@ -20,13 +20,13 @@ Ambient visual indicators (bars/fog) that intensify with scroll amount, creating
 ## Platform Architecture
 
 ### iOS (SwiftUI)
-- **Current Status**: Complete playground implementation
+- **Current Status**: Complete swift app playground implementation
 - **Tech Stack**: SwiftUI, AVKit, iOS 17+
 - **Features**: Video content, scroll detection, interactive overlays
 - **Entry Point**: `ContentView.swift`
 
 ### Web (Planned)
-- **Tech Stack**: React/Vue.js + WebGL/CSS animations
+- **Tech Stack**: React/Vue.js + WebGL/Framer animations
 - **Features**: Responsive design, touch/mouse scroll detection
 - **API Integration**: Real-time usage analytics
 - **PWA Support**: Offline-capable, installable
@@ -40,6 +40,7 @@ Ambient visual indicators (bars/fog) that intensify with scroll amount, creating
   - API endpoints for cross-platform data sync
 
 ## Repository Structure
+The evolution of this would be: 
 
 ```
 scroll-tracker/
