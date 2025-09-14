@@ -6,6 +6,21 @@ A multi-platform exploration of visual metaphors for tracking scroll behavior an
 
 This project demonstrates three distinct approaches to visualizing scroll progress across iOS, web, and backend platforms. Each method uses different psychological cues to create awareness around digital consumption habits.
 
+## Visuals
+
+1. Bottom Toast 
+![Demo of the bottom toast](assets/bottom_toast_demo.gif)
+
+2. Progressive Bars
+![Demo of the progressive bars](assets/bars_demo.gif)
+
+3. AI Assistant 
+![Demo of the ai assistant](assets/ai_assistant_demo.gif)
+
+
+
+
+
 ## Tracking Methods
 
 ### 1. Toast Notifications
