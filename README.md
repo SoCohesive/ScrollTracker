@@ -4,7 +4,7 @@ A multi-platform exploration of visual metaphors for tracking scroll behavior an
 
 ## Overview
 
-This project demonstrates three distinct approaches to visualizing scroll progress across iOS, web, and backend platforms. Each method uses different psychological cues to create awareness around digital consumption habits.
+This project demonstrates three distinct approaches to visualizing scroll progress. Each method uses different psychological cues to create awareness around digital consumption habits.
 
 ## Visuals
 
