@@ -27,32 +27,30 @@ This project demonstrates three distinct approaches to visualizing scroll progre
 Direct text-based intervention that appears after scrolling through specific content thresholds.
 
 ### 2. AI Assistant
-Conversational "Shroom Sage" that provides contextual suggestions through an interactive interface with random appearance patterns.
+AI Assistant that provides contextual suggestions through an interactive interface with random appearance patterns.
 
 ### 3. Progress Visualization  
-Ambient visual indicators (bars/fog) that intensify with scroll amount, creating peripheral awareness without interrupting content flow.
+Ambient visual indicators (bars/fog) that intensify with scroll amount, decrease during scrolling pauses. Creates peripheral awareness without interrupting content flow.
 
 ## Platform Architecture
 
 ### iOS (SwiftUI)
-- **Current Status**: Complete swift app playground implementation
+- **Current Status**: Swift app playground implementation. **NOT production code, very much a prototype**
 - **Tech Stack**: SwiftUI, AVKit, iOS 17+
 - **Features**: Video content, scroll detection, interactive overlays
 - **Entry Point**: `ContentView.swift`
 
 ### Web (Planned)
-- **Tech Stack**: React/Vue.js + WebGL/Framer animations
+- **Tech Stack**: React, Tailwind, + Framer animations
 - **Features**: Responsive design, touch/mouse scroll detection
 - **API Integration**: Real-time usage analytics
-- **PWA Support**: Offline-capable, installable
 
 ### Backend (TBD)
 - **Tech Stack**: Node.js/Typescript + TBD
 - **Features**: 
   - Usage analytics and patterns
-  - User preference storage
   - A/B testing for different tracking methods
-  - API endpoints for cross-platform data sync
+  - API endpoints for clients 
   - ONNX embeddings for heuristics 
 
 ## Repository Structure
@@ -84,6 +82,10 @@ scroll-tracker/
 - **AIAssistantOverlay**: Interactive AI guidance system
 - **ScrollTrackerTypeToggle**: Mode switcher interface
 - **Visual Overlays**: Progress bars, fog effects, toast notifications
+- **Scroll Detection**: Use GeometryReader
+```swift
+scrolledFraction = -minY / (proxy.size.height - screenHeight)
+```
 
 ### Key Features
 - Paging scroll behavior for social media-like experience
@@ -98,13 +100,6 @@ scroll-tracker/
 
 ## Technical Notes
 
-### Scroll Detection
-Uses GeometryReader with frame calculations to track scroll progress across all platforms. iOS implementation:
-
-```swift
-scrolledFraction = -minY / (proxy.size.height - screenHeight)
-```
-
 ### Cross-Platform Considerations
 - State management patterns adaptable to React/Vue/Typescript
 - Animation systems translatable to CSS/JS
@@ -114,10 +109,11 @@ scrolledFraction = -minY / (proxy.size.height - screenHeight)
 
 Each tracker represents different approaches to digital wellness:
 - **Direct**: Immediate feedback through notifications
-- **Conversational**: Personality-driven engagement
+- **Contextual**: Personality-driven engagement
 - **Ambient**: Peripheral awareness without interruption
 
-The system avoids judgmental messaging, instead focusing on gentle awareness and user agency in consumption choices.
+The system avoids judgmental messaging, instead focusing on gentle
+awareness and user agency in consumption choices.
 
 
 ## Contributing
