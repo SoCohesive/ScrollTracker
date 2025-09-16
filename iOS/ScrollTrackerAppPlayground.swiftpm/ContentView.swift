@@ -22,7 +22,7 @@ struct TestScrollView: View {
     private let nProgressBars = 10
     
     
-    let videoNames = ["zachking_hogwarts","fortnite_one", "catmeow3694_cats", "dubai_chocolate", "colbyirv_bunnies", "dailymailuk_cheese", "dog_one","linmeimeiyyds_car", "dubai_chocolate", "colbyirv_bunnies", "dailymailuk_cheese", "dog_one","linmeimeiyyds_car"]
+    let videoNames = ["zachking_hogwarts","fortnite_one", "catmeow3694_cats", "dubai_chocolate", "colbyirv_bunnies", "dailymailuk_cheese", "dog_one","linmeimeiyyds_car", "colbyirv_bunnies", "dailymailuk_cheese", "dog_one","linmeimeiyyds_car"]
     
     
     private func opacityForBar(n: Int) -> CGFloat {

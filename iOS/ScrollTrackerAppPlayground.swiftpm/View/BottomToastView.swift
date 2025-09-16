@@ -1,3 +1,9 @@
+//
+//  BottomToastView.swift
+//  ScrollTrackerPlayground
+//
+//  Created by Sonam Dhingra on 9/12/25.
+//
 
 import SwiftUI
 
